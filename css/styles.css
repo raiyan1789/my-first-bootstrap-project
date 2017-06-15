@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script');
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+}
 .btn-primary{
-	background-color: green;
+	background-color: black;
 }
 .btn-primary:hover {
 	background-color:#73f;
@@ -11,5 +18,47 @@
 	background-image: url(../images/elephant.jpeg);
 	background-position: center;
 	background-size: cover;
-	padding:300px;
+	padding:150px;
+}
+.row{
+	color: #00FF00;
+	border:black;
+	border-width: 20px;
+}
+.things {
+	text-align: center;
+	text-decoration: italic;
+	font-size: 60px;
+	background-color: grey;
+	width:100%;
+	padding:0;
+	margin:auto;
+	color: #00E5EE;
+
+}
+.text-center h2 {
+	font-size:3em;
+	text-decoration: underline;
+}
+#main-header {
+	color:#f8f8ff;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+}
+.jumbotron p {
+	text-align: center;
+	color:#E3720F;
+	font-family: 'Kaushan Script', cursive;
+	padding:20px;
+	font-size:30px;
+}
+.container-fluid{
+	text-align:center;
+
+}
+.project {
+	text-align: center;
+	font-size: 50px;
+	background-color: black;
+	color:#f8f8ff;
 }
