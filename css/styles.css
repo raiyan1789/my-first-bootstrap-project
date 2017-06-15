@@ -1,0 +1,15 @@
+.btn-primary{
+	background-color: green;
+}
+.btn-primary:hover {
+	background-color:#73f;
+}
+.btn-primary:active {
+
+}
+.jumbotron {
+	background-image: url(../images/elephant.jpeg);
+	background-position: center;
+	background-size: cover;
+	padding:300px;
+}
